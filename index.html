@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6Q5dJ20YiZ6Y7TU7dTp5Q2w8mD5P6M"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Judul - 1 -->
+    <div class="box">
+      <div class="title">Welcome! This is nisaa4's website</div>
+      <p class="description">Happy to share with you.</p>
+      
+    </div>
+
+    <!-- Photo - 2 -->
+    <div class="box">
+      <div class="image">
+        <img src="src/img/Image1.jpg" class="img-fluid" alt="Landscape Image">
+      </div>
+      
+      <div class="cards">
+      <div class=" card">
+        <img src="src/img/Image2.jpg" class="card-img-top" alt="img2">
+        <div class="card-body">
+          <p class="card-title">Tofu</p>
+          <p class="card-text">Tofu is an adorable rabbit with a gentle and charming personality. With its predominantly soft, light brown fur, Tofu looks like a fluffy caramel treat.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class=" card">
+        <img src="src/img/Image3.jpg" class="card-img-top" alt="img3">
+        <div class="card-body">
+          <p class="card-title">Mochy</p>
+          <p class="card-text">Introducing Mochy, the sweet white bunny with a hint of pink magic. With a cotton candy-like look, Mochy stands out thanks to its cute, bright blue eyes that shine. </p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class=" card">
+        <img src="src/img/Image4.jpg" class="card-img-top" alt="img4">
+        <div class="card-body">
+          <p class="card-title">Fuzzy</p>
+          <p class="card-text">Hii there, I'm Fuzzy, the white rabbit with a touch of brown pattern, currently lounging amidst the clouds.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+    <!-- Contact us - 3 -->
+    <div class="box">
+      <form>
+        <div class="title">Contact Us</div>
+        <div class="form-container">
+          <div class="display-form">
+          <div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="number" class="form-control" id="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+            <label>Gender:</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                <label class="form-check-label" for="female">Female</label>
+            </div>
+        </div>
+      </div>
+
+      <div class="middle-form">
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" id="comment" rows="4" placeholder="Enter your comment" required></textarea>
+        </div>
+      </div>
+    </div>
+  
+        <div class="end-form">
+            <label for="favPicture">What's your favorite picture?</label>
+            <select class="form-control1" id="favPicture">
+                <option value="landscape">Sunflower</option>
+                <option value="portrait">Tofu</option>
+                <option value="nature">Mochy</option>
+                <option value="cityscape">Fuzzy</option>
+            </select>
+        </div>
+      <div>
+        <button type="submit" class="submit-button btn btn-primary">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
